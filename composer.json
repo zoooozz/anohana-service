@@ -1,12 +1,12 @@
 {
-    "name": "demo",
-    "description": "is demo",
+    "name": "anohanademo",
+    "description": "is anohanademo",
     "keywords": ["demo"],
     "homepage": "https://github.com/zoooozz/Anohana",
     "license": "MIT",
     "authors": [
         {
-            "name": "demo",
+            "name": "anohanademo",
             "homepage": "http://www.php-fig.org/"
         }
     ],
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Log\\": "demo"
+            "Psr\\Log\\": "anohanademo"
         }
     },
     "extra": {
