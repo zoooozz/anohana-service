@@ -1,0 +1,24 @@
+
+name = "anohana-service"
+
+[http]
+    port = 9501
+
+[database]
+    [database.master]
+        addr = "root:xiangfeifei@tcp(127.0.0.1)/anohana?timeout=5s&readTimeout=5s&writeTimeout=5s&parseTime=true&loc=Local&charset=utf8,utf8mb4"
+        active = 2
+        idle = 2
+[log]
+    addr = "/tmp"
+    dir = "anohana-service.log"
+
+[redis]
+    [redis.master]
+        addr = "127.0.0.1:6379"
+        auth = ""
+        db   = 0
+[qiniu]
+    access = "rGoeInowRIGWOgKfqS8guSJuvlu6_N64PqmP3QLL"
+    secret = "ZFLbv8xtM7sMe_FFgZ4_NrpTiG8pZ_m1UZTCHWxP"
+    bucket = "anohana"
